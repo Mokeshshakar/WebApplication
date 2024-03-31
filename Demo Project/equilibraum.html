@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Equlibirum Project</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #0D1A2D;
+            height: 100vh;
+
+        }
+        .parentcontainer{
+            flex-direction: row;
+            min-height: 500px;
+            width: 25%;
+            background-color: #15273F;
+            /* justify-content: center; */
+            /* align-items: center; */
+            border-radius: 5px;
+            /* position: relative; */
+        }
+        .childcontainer{
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 300px;
+            width: 100%;
+            margin-bottom: 20px;
+        }
+        .eyecontainer{
+            position: absolute;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            display: none;
+            /* background-color: #1CC7CC; */
+            height: 233px;
+            width: 300px;
+            border: 1px solid whitesmoke;
+
+        }
+        .image1{
+            margin-top: 10px;
+            height: 233px;
+            width: 300px;
+        }
+
+        .eyeimage{
+            height: 50px;            
+        }
+
+        .eyecontainer:hover{
+            background-color:#1CC7CC;
+            display: block;
+            cursor: pointer;
+        }
+
+
+        .child2container{
+            color: white;
+            padding-left: 35px;
+            margin-bottom: 10px;
+        }
+        .image2{
+            height: 20px;
+            width: 15px;
+
+        }
+        .label{
+            padding-left: 5px;
+            font-size: large;
+            /* color: #1CC7CC; */
+            margin-bottom: 10px;
+        }
+        .child3container{
+            display: flex;
+            border-radius: 50%;
+            height: 50px;
+            width: 50px;
+            border: 1px solid white;
+            margin-top: 10px;
+            background-color: #1CC7CC;
+        }
+        .heading1:hover{
+            color: #1CC7CC;
+            cursor: pointer;
+        }
+        .label:hover{
+            color: #1CC7CC;
+            cursor: pointer;
+        }
+
+        .lable1:hover{
+            color: #1CC7CC;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="parentcontainer">
+            <div class="childcontainer">
+                <div class="equimage">              
+                <img src="image/image-equilibrium.jpg" alt="image"  class="image1">
+                </div>
+                <div class="eyecontainer">
+                    <img src="image/view.png" alt="image" class="eyeimage"> 
+                </div>
+            </div>
+
+            <div class="child2container">
+                <h3 class="heading1">Equlibirum #3429</h3>
+                <br>
+                <h5 style="color: #7A92B0;">our Equlibirum collection promotes <br> balance and calm.</h5>
+                <br>
+                <img src="image/Ethereum.png" alt="image" class="image2">
+                <label class="label">0.041ETH</label> 
+                <br>
+                <hr>
+                <div style="display: flex; align-items: center; ">
+                <div class="child3container">
+                    
+                </div>
+                <div style=" margin-left: 10px;"><h3 style="color: #A5BADC;">creation of  </h3></div>
+                <label class="lable1" style="padding-left: 5px; ">Mokeshshakar</label>
+                </div>
+            </div>
+
+            </div>
+            
+        </div>
+        
+    
+</body>
+</html>
